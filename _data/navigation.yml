@@ -1,0 +1,11 @@
+main:
+  - title: Home
+    url: /
+  - title: Experience
+    url: /experience/
+  - title: Teaching & Research
+    url: /teaching-research/
+  - title: About & Contact
+    url: /about/
+  - title: CV
+    url: /assets/documents/Qian-Xu-CV.pdf
