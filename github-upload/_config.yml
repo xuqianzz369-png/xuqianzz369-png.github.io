@@ -1,0 +1,45 @@
+title: Qian Xu
+name: Qian Xu
+email: qxu@iastate.edu
+description: "Instructional design, online learning, and educational technology."
+url: "https://xuqianzz369-png.github.io"
+baseurl: ""
+minimal_mistakes_skin: default
+search: false
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes@4.26.2
+permalink: /:categories/:title/
+include:
+  - _pages
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - FOUNDATION-NOTES.md
+  - SOURCE-PROMPT.txt
+  - LICENSE-THEME
+plugins:
+  - jekyll-sitemap
+  - jekyll-include-cache
+  - jekyll-remote-theme
+author:
+  name: Qian Xu, Ph.D.
+  bio: "Assistant Professor of Practice at Iowa State University"
+  links:
+    - label: Email
+      icon: fas fa-fw fa-envelope
+      url: mailto:qxu@iastate.edu
+    - label: CV
+      icon: fas fa-fw fa-file-pdf
+      url: /assets/documents/Qian-Xu-CV.pdf
+atom_feed:
+  hide: true
+footer:
+  links: []
+defaults:
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
